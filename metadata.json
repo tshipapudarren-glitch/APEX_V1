@@ -1,0 +1,6 @@
+{
+  "name": "APEX LAB - Trading Intelligence",
+  "description": "Institutional-grade trading intelligence platform featuring live market macro indicators, audited VIP Signal Ledger, verified Algo Marketplace, and AI Chart Vision analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

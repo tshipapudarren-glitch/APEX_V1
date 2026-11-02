@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #d4af37;
+    --gold-secondary: #c59f27;
+    --gold-glow: rgba(212, 175, 55, 0.25);
+  }
+
+  body {
+    background-color: #080807;
+    color: #e5e5e0;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Cinzel', serif, Georgia;
+    letter-spacing: -0.01em;
+  }
+
+  .font-mono-quant {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0c;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2822;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Custom glowing borders & gold gradients */
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.18);
+}
+
+.border-gold-glow {
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.12);
+}
+
+.bg-apex-card {
+  background-color: #0d0d0b;
+}
+
+.bg-apex-card-elevated {
+  background-color: #12120f;
+}
+
+.gold-gradient-btn {
+  background: linear-gradient(135deg, #e4be53 0%, #f7d77b 50%, #c99f30 100%);
+  color: #0b0b08;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.gold-gradient-btn:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 20px rgba(230, 192, 85, 0.4);
+}
